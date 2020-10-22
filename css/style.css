@@ -52,6 +52,7 @@ html, body {
 	justify-content:center;
 	align-items: center;
 	background: #ebc034;
+	background-image: linear-gradient(#ebc034, #cab323, #ecc914 #a18b3f,);
   	border-radius: 15px;
 	backface-visibility: hidden;
 	z-index: 99;
@@ -68,6 +69,7 @@ html, body {
 	justify-content:center;
 	align-items: center;
 	background:#ebc034;
+	background-image: linear-gradient(#ebc034, #cab323, #ecc914 #a18b3f,);
     border: none;
     border-radius: 15px;
 	color: #333;
