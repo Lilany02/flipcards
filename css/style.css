@@ -120,7 +120,11 @@ span {
 	height: 600px;
 	transform-style: preserve-3d;
 	transition: all 1.5s ease;
-    text-align: center;    
+	text-align: center;
+	-webkit-transition: all 1.5s ease;
+	-moz-transition: all 1.5s ease;
+	-ms-transition: all 1.5s ease;
+	-o-transition: all 1.5s ease;
 }
 
 
