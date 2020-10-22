@@ -68,7 +68,7 @@ html, body {
 	justify-content:center;
 	align-items: center;
 	background:#ebc034;
-    border: 1px solid #ff00FF;
+    border: none;
     border-radius: 15px;
 	color: #333;
 	backface-visibility: hidden;
