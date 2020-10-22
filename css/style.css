@@ -31,7 +31,7 @@ html, body {
 .card {
 	position: absolute;
 	width: 100%;
-	max-width: 800px;
+	max-width: 400px;
 	height: 600px;
 	transform-style: preserve-3d;
 	transition: all 1.5s ease;
@@ -84,6 +84,53 @@ h1, p {
 
 h1 {
 	text-transform: uppercase;
+	font-size: 2rem;
+	font-weight: 400;
+}
+.front h1{
+	position: absolute;
+	font-size: 2rem;
+	color: #333;
+	padding: 1em;
+	font-weight: 500;
+	background: rgba(235, 192, 52, 0.3);
+}
+
+
+.back h1{
+    color: #333;
+}
+
+p {
+	font-size: 1.25rem;
+	padding: 2em;
+}
+
+span {
+	font-size: 1rem;
+}
+
+
+@media (min-width: 600px){
+
+	.card {
+	position: absolute;
+	width: 100%;
+	max-width: 800px;
+	height: 600px;
+	transform-style: preserve-3d;
+	transition: all 1.5s ease;
+    text-align: center;    
+}
+
+
+	h1, p {
+	letter-spacing: 1px;
+	line-height: 1.5;
+}
+
+h1 {
+	text-transform: uppercase;
 	font-size: 3rem;
 	font-weight: 400;
 }
@@ -108,4 +155,5 @@ p {
 
 span {
 	font-size: 1rem;
+}
 }
