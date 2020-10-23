@@ -13,7 +13,6 @@ html, body {
     margin:0 auto;
 	padding: 1em;
 	position: relative;
-	background-image: url(images/fall_small.jpg);
 	border-radius: 15px;
 }
 .container {
@@ -42,20 +41,27 @@ html, body {
 	transform: rotateY(180deg);
 }
 .front {
-	position: absolute;
-	padding: 2em;
-	margin: 0 auto; 
-	width: 100%;
-	height: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content:center;
-	align-items: center;
-	background: #ebc034;
-	background-image: linear-gradient(#ebc034, #cab323, #ecc914 #a18b3f,);
-  	border-radius: 15px;
-	backface-visibility: hidden;
-	z-index: 99;
+  	position: absolute;
+  	padding: 2em;
+  	margin: 0 auto;
+  	width: 100%;
+  	height: 100%;
+  	display: flex;
+  	flex-direction: column;
+  	justify-content:center;
+  	align-items: center;
+  	background-image:
+  	url(https://unsplash.com/photos/xRWYtYeLHtg?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink);
+  	/*background-image: linear-gradient(#ebc034, #cab323, #ecc914 #a18b3f,);
+  	*/background-size: cover;
+	border: none;
+	border-radius: 15px;
+  	backface-visibility: hidden;
+  	z-index: 99;
+  	-webkit-border-radius:;
+  	-moz-border-radius:;
+  	-ms-border-radius:;
+  	-o-border-radius:;
 }
 
 .back {
